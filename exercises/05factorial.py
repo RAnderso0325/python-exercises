@@ -9,3 +9,14 @@
 #
 # > 120
 #
+
+def factorial(num):
+    tot = 1
+    if(num == 0):
+        tot = 1
+    else:
+        for i in range(2,num+1):
+            tot *= i
+    print(tot)
+
+factorial(5)
